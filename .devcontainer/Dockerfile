@@ -57,6 +57,6 @@ RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> 
 USER $USERNAME
 
 # Set working directory
-WORKDIR /home/$USERNAME
+WORKDIR /home/$USERNAME/ros2_projects
 
 CMD ["bash"]
